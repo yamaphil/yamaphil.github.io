@@ -147,6 +147,7 @@ body table {
   display: block;
   width: 100%;
   overflow: auto;
+  font-size: 0.9em;
 }
 
 body table th {
@@ -194,17 +195,12 @@ div.titleimg img {
 }
 
 p.backtohome {
-  float: left;
-  margin-top: 0.5em;
+  text-align: center;
+  margin-top: 2em;
   margin-bottom: 0.5em;
-}
-
-p.icons {
-  text-align: right;
-  letter-spacing: 0.3em;
-}
-
-div.footerbar {
-  margin-top: 3em;
   font-weight: bold;
+}
+
+div.icons {
+  text-align: center;
 }
