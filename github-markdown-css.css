@@ -126,21 +126,13 @@ body h3 {
   font-size: 1.25em;
 }
 
-body ul,
-body ol {
-  padding-left: 2em;
+ul.onemargin {
+  padding-left: 1em;
 }
 
-body ul ul,
-body ul ol,
-body ol ol,
-body ol ul {
+body ul ul {
   margin-top: 0;
   margin-bottom: 0;
-}
-
-body li {
-  word-wrap: break-all;
 }
 
 body table {
@@ -203,4 +195,17 @@ p.backtohome {
 
 div.icons {
   text-align: center;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 620px) {
+  .pc {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
 }
