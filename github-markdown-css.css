@@ -98,7 +98,7 @@ body dl,
 body table,
 body pre {
   margin-top: 0;
-  margin-bottom: 16px;
+  margin-bottom: 3px;
 }
 
 body h1,
@@ -112,7 +112,6 @@ body h3{
 
 body h1 {
   padding-bottom: 0.3em;
-  letter-spacing: 0.1em;
   font-size: 2em;
 }
 
@@ -209,4 +208,12 @@ div.icons {
   .mobile {
     display: block;
   }
+}
+
+div.box {
+    padding: 1em 1em;
+    margin: 3% 10%;
+    font-weight: bold;
+    border: solid 3px #a56086;
+    border-radius: 10px;
 }
