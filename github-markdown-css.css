@@ -113,6 +113,8 @@ body h3{
 body h1 {
   padding-bottom: 0.3em;
   font-size: 2em;
+  letter-spacing: 0.1em;
+  border-bottom: 1px solid #abc191;
 }
 
 body h2 {
@@ -211,9 +213,14 @@ div.icons {
 }
 
 div.box {
-    padding: 1em 1em;
-    margin: 3% 10%;
+    padding: 1em 3em;
+    /* margin: 3% 3%; */
     font-weight: bold;
     border: solid 3px #a56086;
     border-radius: 10px;
+    display:inline-block;
+}
+
+div.box p {
+  font-size: 1.3em;
 }
