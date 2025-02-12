@@ -86,3 +86,7 @@ td:nth-child(2) {
   background-color: var(--line-blue);
   height: 20px;
 }
+
+.news-list li {
+  margin-bottom: 0.2em;
+}
