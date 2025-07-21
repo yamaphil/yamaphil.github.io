@@ -4,7 +4,7 @@
   --bg-color: #fffff5;
   --link-color: #002e93;
   --line-red: rgb(225, 54, 34);
-  --line-yellow: rgb(252, 251, 148);
+  --line-yellow: #fcfb94;
   --line-blue: rgb(133, 135, 244);
 }
 
@@ -96,4 +96,21 @@ td:nth-child(2) {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+.concert {
+  margin-bottom: 2em;
+  margin-left: 1em;
+}
+.concert ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 1em;
+}
+.concert ul li {
+  margin: 0;
+  line-height: 1.5;
+}
+.concert .indent {
+  margin-left: 1em;
 }
